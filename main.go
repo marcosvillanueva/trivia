@@ -28,7 +28,7 @@ func main() {
 
 	r.GET("/", home)
 	r.POST("/trivia", triviaClient)
-	r.Run()
+	r.Run(":24361")
 }
 
 func home(c *gin.Context){
