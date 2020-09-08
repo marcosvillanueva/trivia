@@ -1,1 +1,1 @@
-web: ./client/main
+web: ./main
